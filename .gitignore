@@ -1,14 +1,6 @@
-# Terraform directories
 .terraform/
 *.tfstate
-*.tfstate.backup
-
-# Sensitive files
-*.tfvars
-crash.log
-
-# Override files
-override.tf
-override.tf.json
-override.tfvars
-override.tfvars.json
+.tfstate.
+.terraform.lock.hcl
+.terraformrc
+.terraform.d/
